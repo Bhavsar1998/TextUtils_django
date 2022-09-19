@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Utils App</title>
+</head>
+<body>
+    <center><h1>Text Analyzer</h1></center>
+    <center><h2>Enter your text below</h2></center>
+    <form action='/analyze' method='get'>
+        <center><textarea name = 'text' style='width: 1516px; height: 98px'></textarea></center>
+        <input type = "checkbox" name = "removePunctuation">Remove Punctuation</input>
+        <input type = "checkbox" name = "upperCase">UPPER CASE</input>
+        <input type = "checkbox" name = "removeExtraSpace">Remove Extra Space</input>
+        <input type = "checkbox" name = "charCount">Count Characters</input>
+        <br>
+        <center><button type="submit">Analyze</button></center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This file is as part of exercise 1 to display content of this file at home page using views and URLs
